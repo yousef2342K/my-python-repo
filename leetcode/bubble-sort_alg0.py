@@ -5,9 +5,10 @@ print(my_list)
 # 1 - loop in the array by index len(my_list)-1
 # compare every element with the next one
 
-length = len(my_list) # print the length of the array (list)
+length = len(my_list)
 
-print(length)
+print(f"the length of the array : {length}") # print the length of the array (list)
+
 
 
 # loop on elements in the array
@@ -23,4 +24,5 @@ for index in range (0 , length - 1): # range (0,5)
         
 
 print(my_list)
-print (f"Highest grade is {my_list[-1]}")
+print (f"Highest grade : {my_list[-1]}")
+print (f"lowest grade : {my_list[0]}")
