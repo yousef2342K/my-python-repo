@@ -23,3 +23,4 @@ for index in range (0 , length - 1): # range (0,5)
         
 
 print(my_list)
+print (f"Highest grade is {my_list[-1]}")
